@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        .btn{
+            background-color: cyan;
+            
+        }
+        h1{
+            background-color: aquamarine;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Crear Nueva Cuenta</h1>
+    
+    <form action="" method="POST">
+        <b>Nombre</b>
+        <br>
+        <input type="text" id="nombre" size="40" maxlength="40" placeholder="Nombre"
+        required>
+        <br>
+        Correo
+        <br>
+        <input type="email" id="correo" size="40" maxlength="40" placeholder="Correo Electronico" required>
+        <br>
+        Contraseña
+        <br>
+        <input type="password" id="con" size="40" maxlength="6" required placeholder="Escribir 6 caracteres o mas">
+        <br>
+        <br>
+        <input type="submit" class="btn" value="Crea tu nueva cuenta">
+    </form>
+</body>
+</html>

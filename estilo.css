@@ -1,0 +1,32 @@
+.padre {
+    background-color: #fafafa;
+    margin: 5rem;
+    padding: 5rem;
+    border: 2px solid #ccc;
+    text-align: center;
+  }
+h1{
+    background-color: aquamarine;
+    font-style: italic;
+}
+/* Diseño para celulares */
+#columna1, #columna2, #columna3 {
+	float:none;
+	width:100%;
+}
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+	#columna1, #columna2 {
+		float:left;
+		width:50%;
+	}
+}
+
+/* Diseño para PC */ 
+@media screen and (min-width: 1025px) {
+	#columna1, #columna2, #columna3 {
+	float:left;
+    width:33%;
+    }
+}
